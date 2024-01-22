@@ -1,1 +1,3 @@
-# Memory-Game
+# Amazing Memory-Game using HTML , CSS AND JAVASCRIPT
+
+Just go and dowload the source code and enjoy playing the game...
