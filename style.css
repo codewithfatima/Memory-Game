@@ -111,3 +111,47 @@ button {
 .highlight {
     color: #7303c0;
 }
+
+@media (max-width: 600px) {
+    .game {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .controls {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stats {
+        margin-top: 10px;
+    }
+
+    .board {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .board div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .win {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .board {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .board div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .win {
+        font-size: 18px;
+    }
+}
